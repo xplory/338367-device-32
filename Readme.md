@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Евгений Радзевелюк](https://up.htmlacademy.ru/htmlcss/32/user/338367).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Устинов](https://htmlacademy.ru/profile/ustinov-dmitriy).
 
 ---
 
