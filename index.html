@@ -8,7 +8,7 @@
 
 <header class="page-header">
   <a class="navigation-logo">
-    <img class="page-header-logo" alt="Логотип интернет-магазина «Device»" src="">
+    <img class="page-header-logo" src="img/logo.svg" width="145" height="36" alt="Логотип интернет-магазина «Device»">
   </a>
 
   <form class="header-search-form" action="https://echo.htmlacademy.ru" method="get">
@@ -60,16 +60,15 @@
   <h1 class="visually-hidden">Интернет-магазин «Device»</h1>
   <section class="slider">
     <h2 class="visually-hidden">Новинки на сайте</h2>
-    <img class="slider-image" src="" alt="Фото товара">
-    <button class="slider-button slider-prev" type="button">
-      <span class="visually-hidden">Предыдущее фото</span>
-    </button>
-    <button class="slider-button slider-next" type="button">
-      <span class="visually-hidden">Следующее фото</span>
-    </button>
-
-    <ol class="slider-pagination">
-      <li class="slider-pagination-item">
+    <ol class="slider-list">
+      <li class="slider-item">
+        <button class="slider-button slider-prev" type="button">
+          <span class="visually-hidden">Предыдущее фото</span>
+        </button>
+        <img class="slider-item-image" src="img/slider-1.png" width="560" height="560" alt="Фото квадрокоптера">
+        <button class="slider-button slider-next" type="button">
+          <span class="visually-hidden">Следующее фото</span>
+        </button>
         <p class="slider-item-caption">Порхает как бабочка, жалит как пчела!</p>
         <p class="slider-item-desc">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным
           под стандартную камеру.</p>
@@ -88,7 +87,15 @@
           </tr>
         </table>
       </li>
-      <li class="slider-pagination-item">
+
+      <li class="slider-item">
+        <button class="slider-button slider-prev" type="button">
+          <span class="visually-hidden">Предыдущее фото</span>
+        </button>
+        <img class="slider-item-image" src="img/slider-2.png" width="560" height="560" alt="Фото фитнес-браслета">
+        <button class="slider-button slider-next" type="button">
+          <span class="visually-hidden">Следующее фото</span>
+        </button>
         <p class="slider-item-caption">Худеем правильно!</p>
         <p class="slider-item-desc">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и
           соблюдать диету.</p>
@@ -105,7 +112,15 @@
           </tr>
         </table>
       </li>
-      <li class="slider-pagination-item">
+
+      <li class="slider-item">
+        <button class="slider-button slider-prev" type="button">
+          <span class="visually-hidden">Предыдущее фото</span>
+        </button>
+        <img class="slider-item-image" src="img/slider-3.png" width="560" height="560" alt="Фото палки для селфи">
+        <button class="slider-button slider-next" type="button">
+          <span class="visually-hidden">Следующее фото</span>
+        </button>
         <p class="slider-item-caption">Делай селфи, как Бен Стиллер!</p>
         <p class="slider-item-desc">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!)
           метров длиной и весом всего 5 кг.</p>
@@ -134,37 +149,37 @@
     <ul class="products-list">
       <li class="products-item">
         <a href="#">
-          <img src="" alt="">
+          <img src="img/products-group-1.svg" width="97" height="55" alt="Виртуальная реальность">
           <h3>Виртуальная реальность</h3>
         </a>
       </li>
       <li class="products-item">
         <a href="#">
-          <img src="" alt="">
+          <img src="img/products-group-2.svg" width="86" height="117" alt="Моноподы для селфи">
           <h3>Моноподы для селфи</h3>
         </a>
       </li>
       <li class="products-item">
         <a href="#">
-          <img src="" alt="">
+          <img src="img/products-group-3.svg" width="71" height="87" alt="Экшн-камеры">
           <h3>Экшн-камеры</h3>
         </a>
       </li>
       <li class="products-item">
         <a href="#">
-          <img src="" alt="">
+          <img src="img/products-group-4.svg" width="107" height="65" alt="Фитнес-браслеты">
           <h3>Фитнес-браслеты</h3>
         </a>
       </li>
       <li class="products-item">
         <a href="#">
-          <img src="" alt="">
+          <img src="img/products-group-5.svg" width="56" height="98" alt="Умные часы">
           <h3>Умные часы</h3>
         </a>
       </li>
       <li class="products-item">
         <a href="#">
-          <img src="" alt="">
+          <img src="img/products-group-6.svg" width="132" height="69" alt="Квадрокоптеры">
           <h3>Квадрокоптеры</h3>
         </a>
       </li>
@@ -176,19 +191,14 @@
 
     <ul class="advantages-list-controls">
       <li class="advantages-list-controls-item">
-        <button class="advantages-list-controls-button advantages-list-controls-button-current" type="button">
-          <span class="visually-hidden">1 фото</span>
+        <button class="advantages-list-controls-button advantages-list-controls-button-current" type="button">Доставка
         </button>
       </li>
       <li class="advantages-list-controls-item">
-        <button class="advantages-list-controls-button advantages-list-controls-button" type="button">
-          <span class="visually-hidden">2 фото</span>
-        </button>
+        <button class="advantages-list-controls-button advantages-list-controls-button" type="button">Гарантия</button>
       </li>
       <li class="advantages-list-controls-item">
-        <button class="advantages-list-controls-button advantages-list-controls-button" type="button">
-          <span class="visually-hidden">3 фото</span>
-        </button>
+        <button class="advantages-list-controls-button advantages-list-controls-button" type="button">Кредит</button>
       </li>
     </ul>
 
@@ -271,7 +281,8 @@
 <footer class="page-footer">
   <section class="page-footer-address">
     <h2 class="visually-hidden">Наш адрес</h2>
-    <img class="page-footer-logo" src="" alt="Логотип интернет-магазина «Device»">
+    <img class="page-footer-logo" src="img/logo-yellow.svg" width="145" height="36"
+         alt="Логотип интернет-магазина «Device»">
     <p class="footer-address">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
   </section>
 
@@ -313,7 +324,8 @@
       <a class="footer-phone-link" href="tel:+78128121212">+7 812 812-12-12</a>
     </p>
     <a class="htmlacademy-link" href="https://htmlacademy.ru">
-      <img class="htmlacademy-logo" src="" alt="Логотип компании «HTML Academy»">
+      <img class="htmlacademy-logo" src="img/logo-htmlacademy.svg" width="115" height="34"
+           alt="Логотип компании «HTML Academy»">
     </a>
   </section>
 </footer>
