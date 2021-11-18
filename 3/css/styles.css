@@ -1,0 +1,317 @@
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  src: url("/fonts/raleway/raleway-800.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/rubik/rubik-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/rubik/rubik-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 800;
+  src: url("/fonts/rubik/rubik-800.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+a {
+  color: #000000;
+}
+
+.button {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.title {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.page-header {
+  background: #ffe17f;
+}
+
+.inner-header-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.user-menu {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.user-menu-link-disabled {
+  opacity: 0.3;
+}
+
+nav {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.inner-breadcrumbs {
+  font-size: 16px;
+  line-height: 19px;
+  opacity: 0.6;
+}
+
+.catalog-filter-title,
+.catalog-sorting-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.catalog-filter-title {
+  background: #dcdcdc;
+}
+
+.catalog-sorting-wrapper {
+  background: #ebebeb;
+}
+
+.catalog-filter-group {
+  background: #ebebeb;
+}
+
+.catalog-filter-group-title {
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+}
+
+.control-label {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.product-card-title {
+  line-height: 24px;
+  letter-spacing: -0.02em;
+}
+
+.product-card-price {
+  line-height: 21px;
+  color: #444444;
+}
+
+.product-show-more {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.pagination {
+  background: #ebebeb;
+}
+
+.pagination-link {
+  font-size: 16px;
+  line-height: 19px;
+  color: #444444;
+  opacity: 0.3;
+}
+
+.pagination-link-prev,
+.pagination-link-next {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.slider-item-desc {
+  color: #444444;
+}
+
+.slider-product-features-caption {
+  font-size: 36px;
+}
+
+.slider-product-features-desc {
+  font-size: 16px;
+}
+
+.products-item-caption {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.advantages {
+  background: #f0f0f0;
+}
+
+.advantages-description {
+  color: #444444;
+}
+
+.advantages-item::after {
+  content: "";
+  position: absolute;
+  display: block;
+}
+
+.advantages-item-delivery {
+  background-image: url("../img/tab-delivery.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.advantages-item-guarantee {
+  background-image: url("../img/tab-warranty.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.advantages-item-credit {
+  background-image: url("../img/tab-credit.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.advantages-list-special-order {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.contacts-subtitle {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  color: #444444;
+}
+
+.about-us,
+.contacts {
+  background: #ffffff;
+}
+
+.about-us-description,
+.contacts-address,
+.contacts-schedule,
+.contacts-description,
+.newsletter-description,
+.newsletter-button-title {
+  color: #444444;
+}
+
+.about-us-list {
+  line-height: 20px;
+}
+
+.newsletter {
+  background: #f0f0f0;
+}
+
+.newsletter-button {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.page-footer {
+  background: #444444;
+}
+
+.footer-address {
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.page-footer-menu {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-phone-link {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
