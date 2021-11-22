@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Девайс</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
 
@@ -11,17 +11,17 @@
   <div class="header-wrapper">
     <div class="navigation-logo">
       <a class="navigation-logo-link">
-        <img class="page-header-logo" src="img/logo.svg" width="145" height="36"
-             alt="Логотип интернет-магазина «Device»">
+        <img alt="Логотип интернет-магазина «Device»" class="page-header-logo" height="36" src="img/logo.svg"
+             width="145">
       </a>
     </div>
 
     <div class="user-menu">
-      <form class="header-search-form" action="https://echo.htmlacademy.ru" method="get">
+      <form action="https://echo.htmlacademy.ru" class="header-search-form" method="get">
         <p class="header-search">
           <label class="visually-hidden" for="search-field">Поиск по сайту</label>
-          <input class="header-search-input" type="search" id="search-field" name="search-field"
-                 placeholder="Поиск по сайту">
+          <input class="header-search-input" id="search-field" name="search-field" placeholder="Поиск по сайту"
+                 type="search">
           <button class="header-search-button" type="submit">Найти</button>
         </p>
       </form>
@@ -51,7 +51,7 @@
           <ul class="dropdown-menu">
             <li class="dropdown-menu-item">
               <a href="#">Виртуальная реальность</a>
-              <a href="#">Моноподы для cелфи</a>
+              <a href="catalog.html">Моноподы для cелфи</a>
               <a href="#">Экшн-камеры</a>
             </li>
             <li class="dropdown-menu-item">
@@ -88,7 +88,7 @@
             <button class="slider-button slider-prev" type="button">
               <span class="visually-hidden">Предыдущее фото</span>
             </button>
-            <img class="slider-item-image" src="img/slider-1.png" width="560" height="560" alt="Фото квадрокоптера">
+            <img alt="Фото квадрокоптера" class="slider-item-image" height="560" src="img/slider-1.png" width="560">
             <button class="slider-button slider-next" type="button">
               <span class="visually-hidden">Следующее фото</span>
             </button>
@@ -109,11 +109,11 @@
               <span class="visually-hidden">3 фото</span>
             </button>
             <table class="slider-product-features">
-              <tr>
+              <tr class="slider-product-features-caption">
                 <th>800 м</th>
                 <th>50 м</th>
               </tr>
-              <tr>
+              <tr class="slider-product-features-desc">
                 <td>Дальность полета</td>
                 <td>Радиус поражения</td>
               </tr>
@@ -126,7 +126,7 @@
             <button class="slider-button slider-prev" type="button">
               <span class="visually-hidden">Предыдущее фото</span>
             </button>
-            <img class="slider-item-image" src="img/slider-2.png" width="560" height="560" alt="Фото фитнес-браслета">
+            <img alt="Фото фитнес-браслета" class="slider-item-image" height="560" src="img/slider-2.png" width="560">
             <button class="slider-button slider-next" type="button">
               <span class="visually-hidden">Следующее фото</span>
             </button>
@@ -146,10 +146,10 @@
               <span class="visually-hidden">3 фото</span>
             </button>
             <table class="slider-product-features">
-              <tr>
+              <tr class="slider-product-features-caption">
                 <th>48 часов</th>
               </tr>
-              <tr>
+              <tr class="slider-product-features-desc">
                 <td>Без подзарядки</td>
               </tr>
             </table>
@@ -161,7 +161,7 @@
             <button class="slider-button slider-prev" type="button">
               <span class="visually-hidden">Предыдущее фото</span>
             </button>
-            <img class="slider-item-image" src="img/slider-3.png" width="560" height="560" alt="Фото палки для селфи">
+            <img alt="Фото палки для селфи" class="slider-item-image" height="560" src="img/slider-3.png" width="560">
             <button class="slider-button slider-next" type="button">
               <span class="visually-hidden">Следующее фото</span>
             </button>
@@ -203,7 +203,8 @@
         <li class="products-item">
           <a href="#">
             <div class="products-item-wrapper">
-              <img src="img/products-group-1.svg" width="97" height="55" alt="Виртуальная реальность">
+              <img alt="Виртуальная реальность" class="products-item-img" height="55" src="img/products-group-1.svg"
+                   width="97">
             </div>
             <h3 class="products-item-caption">Виртуальная реальность</h3>
           </a>
@@ -211,7 +212,8 @@
         <li class="products-item">
           <a href="#">
             <div class="products-item-wrapper">
-              <img src="img/products-group-2.svg" width="86" height="117" alt="Моноподы для селфи">
+              <img alt="Моноподы для селфи" class="products-item-img" height="117" src="img/products-group-2.svg"
+                   width="86">
             </div>
             <h3 class="products-item-caption">Моноподы для селфи</h3>
           </a>
@@ -219,7 +221,7 @@
         <li class="products-item">
           <a href="#">
             <div class="products-item-wrapper">
-              <img src="img/products-group-3.svg" width="71" height="87" alt="Экшн-камеры">
+              <img alt="Экшн-камеры" class="products-item-img" height="87" src="img/products-group-3.svg" width="71">
             </div>
             <h3 class="products-item-caption">Экшн-камеры</h3>
           </a>
@@ -227,7 +229,8 @@
         <li class="products-item">
           <a href="#">
             <div class="products-item-wrapper">
-              <img src="img/products-group-4.svg" width="107" height="65" alt="Фитнес-браслеты">
+              <img alt="Фитнес-браслеты" class="products-item-img" height="65" src="img/products-group-4.svg"
+                   width="107">
             </div>
             <h3 class="products-item-caption">Фитнес-браслеты</h3>
           </a>
@@ -235,7 +238,7 @@
         <li class="products-item">
           <a href="#">
             <div class="products-item-wrapper">
-              <img src="img/products-group-5.svg" width="56" height="98" alt="Умные часы">
+              <img alt="Умные часы" class="products-item-img" height="98" src="img/products-group-5.svg" width="56">
             </div>
             <h3 class="products-item-caption">Умные часы</h3>
           </a>
@@ -243,15 +246,17 @@
         <li class="products-item">
           <a href="#">
             <div class="products-item-wrapper">
-              <img src="img/products-group-6.svg" width="132" height="69" alt="Квадрокоптеры">
+              <img alt="Квадрокоптеры" class="products-item-img" height="69" src="img/products-group-6.svg" width="132">
             </div>
             <h3 class="products-item-caption">Квадрокоптеры</h3>
           </a>
         </li>
       </ul>
     </section>
+  </div>
 
-    <section class="advantages">
+  <section class="advantages">
+    <div class="page-container">
       <h2 class="visually-hidden">Преимущества</h2>
       <div class="advantages-wrapper">
         <ul class="advantages-list-controls">
@@ -287,14 +292,18 @@
           </li>
         </ul>
       </div>
+    </div>
+  </section>
 
-      <button class="advantages-list-special-order">
+  <div class="page-container">
+    <section class="special-order">
+      <button class="special-order-button">
         Доставим редкий товар под заказ
-        <span class="advantages-list-special-order-icon">
-      <button class="info" type="button">
-        <span class="visually-hidden">Посмотреть дополнительную информацию</span>
-      </button>
-    </span>
+        <span class="special-order-icon">
+          <button class="info" type="button">
+            <span class="visually-hidden">Посмотреть дополнительную информацию</span>
+          </button>
+        </span>
       </button>
     </section>
 
@@ -314,7 +323,6 @@
         </ul>
         <a class="button" href="#">Подробнее о нас</a>
       </section>
-
       <section class="contacts">
         <h2 class="title contacts-title">Контакты</h2>
         <p class="contacts-description">Вы можете забрать товар сами, заехав в наш офис. Заодно сможете проверить
@@ -332,8 +340,10 @@
         <a class="button" href="#">Напишите нам</a>
       </section>
     </div>
+  </div>
 
-    <section class="newsletter">
+  <section class="newsletter">
+    <div class="page-container">
       <div class="newsletter-wrapper">
         <h2 class="title newsletter-title">Подпишитесь на рассылку</h2>
         <p class="newsletter-description">Еженедельный дайджест с обзорами новинок, длительными тест-драйвами,
@@ -341,38 +351,38 @@
           а также акции, спецпредложения
           и вот это вот всё.</p>
       </div>
-      <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+      <form action="https://echo.htmlacademy.ru/" class="newsletter-form" method="post">
         <p class="newsletter-email">
           <label class="visually-hidden" for="newsletter-email">Email</label>
-          <input class="newsletter-email-field" placeholder="Ваш e-mail" type="email" name="newsletter-email"
-                 id="newsletter-email" required>
+          <input class="newsletter-email-field" id="newsletter-email" name="newsletter-email" placeholder="Ваш e-mail"
+                 required type="email">
           <button class="newsletter-button" type="submit">Подписаться</button>
           <span class="newsletter-button-title">Это бесплатно</span>
         </p>
       </form>
-    </section>
-  </div>
+    </div>
+  </section>
 </main>
 
 <footer class="page-footer">
   <div class="page-footer-container">
     <section class="page-footer-address">
       <h2 class="visually-hidden">Наш адрес</h2>
-      <img class="page-footer-logo" src="img/logo-yellow.svg" width="145" height="36"
-           alt="Логотип интернет-магазина «Device»">
+      <img alt="Логотип интернет-магазина «Device»" class="page-footer-logo" height="36" src="img/logo-yellow.svg"
+           width="145">
       <p class="footer-address">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
     </section>
 
     <div class="page-footer-menu">
-      <ul class="navigation-list">
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">Доставка</a>
+      <ul class="footer-navigation-list">
+        <li class="footer-navigation-item">
+          <a class="footer-navigation-link" href="#">Доставка</a>
         </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">Гарантия</a>
+        <li class="footer-navigation-item">
+          <a class="footer-navigation-link" href="#">Гарантия</a>
         </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">Контакты</a>
+        <li class="footer-navigation-item">
+          <a class="footer-navigation-link" href="#">Контакты</a>
         </li>
       </ul>
       <ul class="social-list">
@@ -400,8 +410,8 @@
         <a class="footer-phone-link" href="tel:+78128121212">+7 812 812-12-12</a>
       </p>
       <a class="htmlacademy-link" href="https://htmlacademy.ru">
-        <img class="htmlacademy-logo" src="img/logo-htmlacademy.svg" width="115" height="34"
-             alt="Логотип компании «HTML Academy»">
+        <img alt="Логотип компании «HTML Academy»" class="htmlacademy-logo" height="34" src="img/logo-htmlacademy.svg"
+             width="115">
       </a>
     </section>
   </div>
